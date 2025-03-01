@@ -3,14 +3,14 @@
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~>1.6.3 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~>5.4.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~>1.11 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~>5.89.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | ~>5.4.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | ~>5.89.0 |
 
 ## Modules
 
@@ -32,7 +32,6 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_AWS_REGION"></a> [AWS\_REGION](#input\_AWS\_REGION) | The AWS region your resources will be deployed | `any` | n/a | yes |
-| <a name="input_resource_tags"></a> [resource\_tags](#input\_resource\_tags) | Tags to set for all resources | `map(string)` | <pre>{<br>  "Application": "ccee",<br>  "Environment": "Dev",<br>  "Name": "ccee-dev",<br>  "Owner": "ebe"<br>}</pre> | no |
 
 ## Outputs
 

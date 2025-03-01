@@ -2,7 +2,7 @@
 ##############################BucketS3#####################################
 # Create a bucket for storage the terraform remote-state
 resource "aws_s3_bucket" "remote-state" {
-  bucket = "DevOps Mochileiro"
+  bucket              = "DevOps Mochileiro"
   object_lock_enabled = true
 }
 
